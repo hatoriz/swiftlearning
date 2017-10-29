@@ -73,3 +73,49 @@ import UIKit
 //
 ////------ Lazy Property End ----
 
+//////------ Protocol ----
+//protocol Blinking {
+//    var isBlinking : Bool {get}
+//
+//    var blinkSpeed: Double { get set}
+//
+//    func startBlinking(blinkSpeed: Double) -> Void
+//}
+//
+//class TrafficLight : Blinking {
+//    var isBlinking: Bool = false
+//
+//    var blinkSpeed: Double = 0.0
+//
+//    func startBlinking(blinkSpeed: Double) {
+//        print("I am a traffic light, and I am now blinking")
+//        isBlinking = true
+//
+//        self.blinkSpeed = blinkSpeed
+//    }
+//}
+//
+//class LightHouse : Blinking {
+//    var isBlinking: Bool = false
+//
+//    var blinkSpeed: Double = 0.0
+//
+//    func startBlinking(blinkSpeed : Double) {
+//        print("I am a lighthouse, and I am now blinking")
+//        isBlinking = true
+//
+//        self.blinkSpeed = blinkSpeed
+//    }
+//}
+//
+//var aBlinkingThing : Blinking
+//
+//aBlinkingThing = TrafficLight()
+//
+//aBlinkingThing.startBlinking(blinkSpeed: 4.0)
+//aBlinkingThing.blinkSpeed
+//
+//aBlinkingThing = LightHouse()
+//
+//////------ Protocol End ----
+
