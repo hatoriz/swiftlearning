@@ -194,12 +194,36 @@ import UIKit
 //
 //let secretBankAccount = try? BankAccount(amount: -50)
 ////---------- Error Handling Ends ------
-
-
-
-
-
-
+//
+//////---------- Delegation ------
+//protocol HouseSecurityDelegate {
+//    func handleIntruder()
+//}
+//
+//class House {
+//    var delegator: HouseSecurityDelegate?
+//
+//    func burglarDetected(){
+//        delegator?.handleIntruder()
+//    }
+//}
+//
+//class GuardDog : HouseSecurityDelegate {
+//    func handleIntruder(){
+//        print("Release the hounds !")
+//    }
+//}
+//
+//class
+//
+//let myHouse = House()
+//myHouse.burglarDetected()
+//
+//let guardDog = GuardDog()
+//myHouse.delegator = guardDog
+//myHouse.burglarDetected()
+//
+//////---------- Delegation ------
 
 
 
